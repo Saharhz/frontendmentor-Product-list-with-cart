@@ -40,7 +40,7 @@
         <div id="dessert_list">
           <h1>Desserts</h1>
         </div>
-        <div class="waffel">
+        <div class="item" id="waffel">
           <img
             src="assets/images/image-waffle-desktop.jpg"
             alt="image-waffle-desktop"
@@ -61,7 +61,7 @@
           <p class="price">$6.50</p>
         </div>
 
-        <div class="brulee">
+        <div class="item" id="brulee">
           <img
             src="assets/images/image-creme-brulee-desktop.jpg"
             alt="image-creme-brulee-desktop"
@@ -82,7 +82,7 @@
           <p class="price">$7.00</p>
         </div>
 
-        <div class="Macaron">
+        <div class="item" id="macaron">
           <img
             src="assets/images/image-macaron-desktop.jpg"
             alt="image-macaron-desktop"
@@ -103,7 +103,7 @@
           <p class="price">$8.00</p>
         </div>
 
-        <div class="tiramisu">
+        <div class="item" id="tiramisu">
           <img
             src="assets/images/image-tiramisu-desktop.jpg"
             alt="image-tiramisu-desktop"
@@ -124,7 +124,7 @@
           <p class="price">$5.50</p>
         </div>
 
-        <div class="baklava">
+        <div class="item" id="baklava">
           <img
             src="assets/images/image-baklava-desktop.jpg"
             alt="image-baklava-desktop"
@@ -145,7 +145,7 @@
           <p class="price">$4.00</p>
         </div>
 
-        <div class="pie">
+        <div class="item" id="meringue">
           <img
             src="assets/images/image-meringue-desktop.jpg"
             alt="image-meringue-desktop"
@@ -166,7 +166,7 @@
           <p class="price">$5.00</p>
         </div>
 
-        <div class="cake">
+        <div class="item" id="cake">
           <img
             src="assets/images/image-cake-desktop.jpg"
             alt="image-cake-desktop"
@@ -187,7 +187,7 @@
           <p class="price">$4.50</p>
         </div>
 
-        <div class="Brownie">
+        <div class="item" id="brownie">
           <img
             src="assets/images/image-brownie-desktop.jpg"
             alt="image-brownie-desktop"
@@ -208,20 +208,21 @@
           <p class="price">$4.50</p>
         </div>
 
-        <div class="pannaCotta">
+        <div class="item" id="pannacotta">
           <img
             src="assets/images/image-panna-cotta-desktop.jpg"
             alt="image-panna-cotta-desktop"
           />
           <div class="icon-button">
-            <i class="bx bx-bulb"></i>
             <button class="add_cart">
+              <span class="decrease">-</span>
               <img
                 src="assets/images/icon-add-to-cart.svg"
                 alt="icon-add-to-cart"
                 class="icon"
               />
               Add to Cart
+              <span class="increase">+</span>
             </button>
           </div>
           <p class="category">Panna Cotta</p>
@@ -232,7 +233,7 @@
 
       <div class="sidebar">
         <div class="cart-container">
-          <h1>Your Cart (<!-- Quantity -->)</h1>
+          <h1>Your Cart (0)</h1>
           <div class="flex-container">
             <img
               src="assets/images/illustration-empty-cart.svg"
@@ -243,12 +244,6 @@
         </div>
       </div>
     </section>
-
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-      Coded by <a href="#">Sahar</a>.
-    </div>
-    <link rel="stylesheet" href="script.js" />
+    <script src="script.js"></script>
   </body>
 </html>

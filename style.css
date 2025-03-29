@@ -74,9 +74,13 @@ img {
   margin-top: -20px;
   z-index: 2;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .add_cart {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -85,12 +89,28 @@ img {
   font-size: 8px;
   border-radius: 50px;
   cursor: pointer;
-  padding: 5px 10px;
+  padding: 5px 25px;
   background-color: rgb(255, 253, 253);
 }
 
 .icon-button :hover {
   background-color: var(--font_color);
+}
+
+.add_cart .decrease,
+.add_cart .increase {
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  opacity: 0;
+}
+
+.add_cart:hover .decrease,
+.add_cart:hover .increase {
+  opacity: 1;
+  color: rgb(255, 253, 253);
 }
 
 .icon {
@@ -111,7 +131,7 @@ img {
 .sidebar {
   display: flex;
   padding-top: 50px;
-  max-height: 30vh;
+  max-height: 35vh;
   margin-left: 10px;
 }
 
