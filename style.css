@@ -131,8 +131,9 @@ img {
 .sidebar {
   display: flex;
   padding-top: 50px;
-  max-height: 35vh;
   margin-left: 10px;
+  block-size: fit-content;
+
 }
 
 .cart-container {
