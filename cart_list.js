@@ -68,3 +68,11 @@ items.forEach((item) => {
   increaseBtn.addEventListener("click", () => updateQuantity(1));
   decreaseBtn.addEventListener("click", () => updateQuantity(-1));
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const confirmBtn = document.querySelector(".confirmBtn");
+
+  confirmBtn.addEventListener("click", () => {
+    alert("Order Confirmed");
+  });
+});
